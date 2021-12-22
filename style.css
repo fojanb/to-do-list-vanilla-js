@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  background-color: rgb(19, 15, 15);
+  background-color: #22272e;
   font-family: sans-serif;
 }
 .shopping {
@@ -8,7 +8,7 @@ body {
   grid-template-columns: repeat(1, 400px);
   width: 450px;
   height: auto;
-  background-color: hsl(182, 25%, 50%, 0.1);
+  background-color: #2d333b;
   align-items: center;
   justify-content: center;
   margin: 100px auto;
@@ -18,7 +18,7 @@ body {
 }
 .shopping h1 {
   text-align: center;
-  color: #b1a8a3;
+  color: #277da1;
 }
 #form {
   display: flex;
@@ -31,15 +31,15 @@ body {
   appearance: none;
   border: none;
   outline: none;
-  border-bottom: 1px solid #2a9d8f;
+  border-bottom: 1px solid #277da1;
   padding: 8px;
   font-size: large;
   width: 300px;
   height: 20px;
-  color: aliceblue;
+  color: #adbac7;
 }
 #form input:focus {
-  background-color:rgba(96, 157, 159, 0.158) ;
+  background-color:rgba(96, 137, 159, 0.158) ;
 }
 .taskList {
   display: flex;
@@ -64,7 +64,7 @@ body {
 }
 
 .addButton {
-  color: #2a9d8f;
+  color: #adbac7;
   background-color: transparent;
   border: none;
   appearance: none;
@@ -81,7 +81,7 @@ body {
   transition: ease-in-out 0.3s;
 }
 .deleteBtn {
-  background-color: #a16e43;
+  background-color: #855c8f;
   color: #b1a8a3;
   border: none;
   appearance: none;
@@ -109,7 +109,7 @@ body {
   text-align: center;
   padding: 10px;
   margin-top: 40px;
-  color: #5986af;
+  color: #59af9c;
   border-radius: 10px;
   font-weight: bold;
   transition: ease-in-out 0.4s;
